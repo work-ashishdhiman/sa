@@ -21,10 +21,17 @@
               Dropdown
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'EC'%}">Electronics</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'KA'%}">Kitchen Appliances</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'BF'%}">Bedroom Furniture</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'HD'%}">Home Decor</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'OE'%}">Outdoor Equipment</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'CA'%}">Clothing & Accessories</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'BP'%}">Beauty & Personal Care</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'SF'%}">Sports & Fitness</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'BS'%}">Books & Stationery</a></li>
+              <li><a class="dropdown-item" href="{% url 'category' 'TG'%}">Toys & Games</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
           <li class="nav-item">
